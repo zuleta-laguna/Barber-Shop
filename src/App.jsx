@@ -14,9 +14,6 @@ function App() {
     <div className="Container">
       
       <Routes>
-        <Route path="/products" element={<Products />} />
-      </Routes>
-      <Routes>
         <Route
           path="/"
           element={
@@ -33,6 +30,7 @@ function App() {
             </>
           }
         ></Route>
+         <Route path="/products" element={<Products />} />
       </Routes>
     </div>
   );
